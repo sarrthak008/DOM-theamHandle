@@ -21,9 +21,12 @@ function chnageImage(color){
         img.src=`images/skin.png`
     break;
 
+  case 'green':
+     img.src='images/green.png'
+     break;
+    
     default:
-        img.src=`images/green.png`
-    break;
+        break;
 
 
          
