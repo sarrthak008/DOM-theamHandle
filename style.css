@@ -184,7 +184,7 @@ main{
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:430px) {
    
    
   #container{
@@ -241,9 +241,78 @@ main{
 #theam-btn-container{
   position: fixed;
   top:4vh;
-  right: 4vw;
+  right: 10vw;
 }
 
 
 
 } 
+
+
+@media screen and (min-width:431px) and (max-width:720px) {   
+   
+  #container{
+    top: 51%;
+    left:50%;
+    height: 65vh;
+    width: 90vw;
+    padding: 2.3vw;
+  }
+
+
+
+  #info h1{
+    letter-spacing: 2vw;
+    font-size: 10vw;
+  }
+
+
+ .btn-design{
+    height: 100%;
+    width: 5.3vw;
+ }
+
+ .order-btn{
+    padding: 1.8vh 5vw;
+    margin-top: 4vh;
+    font-size: 2.5vw;
+ }
+
+}
+
+@media  screen and (min-width:721px) and (max-width:1030px) {
+  
+
+  #container{
+    top: 51%;
+    left:50%;
+    height: 70vh;
+    width: 90vw;
+    padding: 2.3vw;
+  }
+
+
+
+  #info h1{
+    font-size: 10vw;
+  }
+
+ .btn-design{
+    height: 100%;
+    width: 5.3vw;
+ }
+
+ .order-btn{
+    padding: 1.8vh 5vw;
+    margin-top: 4vh;
+    font-size: 1.5vw;
+ }
+ .btn-container{
+  height:7vh;
+  width: 30vw;
+  margin-top: 5vh;
+}
+
+    
+
+}
