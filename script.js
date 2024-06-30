@@ -27,9 +27,6 @@ function chnageImage(color){
     
     default:
         break;
-
-
-         
      }
 
 }
